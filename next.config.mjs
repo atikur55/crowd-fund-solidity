@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["encrypted-tbn0.gstatic.com"], // List any external domains here
+    domains: ["asset.inc42.com"], // List any external domains here
   },
 };
 
