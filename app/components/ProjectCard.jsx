@@ -7,18 +7,18 @@ const ProjectCard = ({ id }) => {
     <div id="projects" className="rounded-lg shadow-lg bg-white">
       <Link href={`/project/${id}`}>
         <Image
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4vDYktSVqz8aehslkccwgZpezseopkOoLxw&s"
-          height={500}
-          width={256}
+          src="https://asset.inc42.com/2023/06/Glossary-Series-Brand-_-Crowd-Funding-ftr.png"
           alt="project"
-          className="rounded-xl h-64 w-full object-cover"
+          height={435}
+          width={410}
+          className="rounded-xl w-full object-cover"
         />
         <div className="p-4">
-          <h5>Bring a smile to the world</h5>
+          <h5 className="text-gray-500">Bring a smile to the world</h5>
           <div className="flex flex-col">
             <div className="flex justify-between items-center space-x-2 mb-3">
               <HandCoins
-                className="rounded-full shadow-md"
+                className="rounded-full shadow-md text-black"
                 string="0x15....1ea2"
               />
               <small className="text-gray-700">0x15....1ea2</small>
