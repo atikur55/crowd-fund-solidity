@@ -1,6 +1,15 @@
+"use client";
+
+import { useGlobalContext } from "@/lib/GlobalContext";
 import CreateProject from "./CreatePorject";
 
 const Hero = () => {
+  const { setGlobalState } = useGlobalContext();
+
+  const addProjectBtn = () => {
+    setGlobalState("createModal", "scale-100");
+  };
+
   return (
     <div className="py-24 px-6 text-center bg-white text-gray-800">
       <h1 className="text-5xl font-bold leading-tight mb-12">
@@ -12,6 +21,7 @@ const Hero = () => {
         <button
           type="button"
           className="inline-block px-6 py-2.5 bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg"
+          onClick={addProjectBtn}
         >
           Add Project
         </button>
@@ -21,9 +31,8 @@ const Hero = () => {
         >
           Back Project
         </button>
+        <CreateProject />
       </div>
-
-      <CreateProject />
 
       <div className="flex justify-center items-center mt-12">
         <div className="flex flex-col justify-center items-center h-20 border border-gray-200 shadow-md w-full">
