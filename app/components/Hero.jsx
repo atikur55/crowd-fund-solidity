@@ -1,3 +1,5 @@
+import CreateProject from "./CreatePorject";
+
 const Hero = () => {
   return (
     <div className="py-24 px-6 text-center bg-white text-gray-800">
@@ -20,6 +22,8 @@ const Hero = () => {
           Back Project
         </button>
       </div>
+
+      <CreateProject />
 
       <div className="flex justify-center items-center mt-12">
         <div className="flex flex-col justify-center items-center h-20 border border-gray-200 shadow-md w-full">

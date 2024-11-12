@@ -2,7 +2,7 @@ import { Currency, EarthLock } from "lucide-react";
 
 const ProjectBacker = () => {
   return (
-    <div className="py-24 px-6 flex flex-col justify-center items-start md:w-2/3 mx-auto">
+    <div className="py-5 last:px-6 flex flex-col justify-center items-start md:w-2/3 mx-auto">
       <div className="max-h-[calc(100vh_-_20rem)] overflow-y-auto shadow-md rounded-md w-full">
         <table className="min-w-full mb-5">
           <thead className="border-b">
