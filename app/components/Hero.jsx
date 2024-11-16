@@ -1,10 +1,7 @@
 "use client";
 
 import { useGlobalContext } from "@/lib/GlobalContext";
-<<<<<<< HEAD
-=======
 import CreateProject from "./CreatePorject";
->>>>>>> a079b2581e6a11ace95b7777dcb4c2461406b8f3
 
 const Hero = () => {
   const { setGlobalState } = useGlobalContext();

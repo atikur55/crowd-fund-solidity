@@ -1,15 +1,10 @@
-<<<<<<< HEAD
 "use client";
-import ProjectBacker from "@/app/components/ProjectBacker";
 import { useGlobalContext } from "@/lib/GlobalContext";
-=======
 import ProjectBacker from "@/app/components/ProjectBacker";
->>>>>>> a079b2581e6a11ace95b7777dcb4c2461406b8f3
 import { Currency, EarthLock } from "lucide-react";
 import Image from "next/image";
 
 const ProjectDetail = () => {
-<<<<<<< HEAD
   const { state, setGlobalState } = useGlobalContext();
 
   const editModalBtn = () => {
@@ -23,8 +18,6 @@ const ProjectDetail = () => {
     setGlobalState("deleteModal", "scale-100");
   };
 
-=======
->>>>>>> a079b2581e6a11ace95b7777dcb4c2461406b8f3
   return (
     <>
       <div className="py-24 px-6 flex justify-center">
@@ -86,30 +79,21 @@ const ProjectDetail = () => {
             <button
               type="button"
               className="inline-block px-6 py-2.5 bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg"
-<<<<<<< HEAD
               onClick={backModalBtn}
-=======
->>>>>>> a079b2581e6a11ace95b7777dcb4c2461406b8f3
             >
               Back Project
             </button>
             <button
               type="button"
               className="inline-block px-6 py-2.5 bg-gray-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-gray-700 hover:shadow-lg focus:bg-gray-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-800 active:shadow-lg"
-<<<<<<< HEAD
               onClick={editModalBtn}
-=======
->>>>>>> a079b2581e6a11ace95b7777dcb4c2461406b8f3
             >
               Edit
             </button>
             <button
               type="button"
               className="inline-block px-6 py-2.5 bg-red-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg"
-<<<<<<< HEAD
               onClick={deleteModalBtn}
-=======
->>>>>>> a079b2581e6a11ace95b7777dcb4c2461406b8f3
             >
               Delete
             </button>
